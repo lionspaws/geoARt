@@ -2,7 +2,7 @@
 
 https://medium.com/chialab-open-source/build-your-location-based-augmented-reality-web-app-c2442e716564
 
-Test models in use:
+## Test models:
 
 "Large pile of leaves" (https://skfb.ly/o7XxN) by matousekfoto is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
