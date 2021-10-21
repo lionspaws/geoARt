@@ -7,7 +7,7 @@ function staticLoadPlaces() {
     return [
         {
             name: 'PSB Fish Pond',
-            files: './assets/magnemite/scene.gltf',
+            files: './assets/simple-spotted-jellyfish-baked-animation/Spotted-Jelly.gltf',
             location: {
                 lat: 52.415741,
                 lng: -4.065626,
@@ -15,7 +15,7 @@ function staticLoadPlaces() {
         },
         {
             name: 'Wood nr Robotics Workshop',
-            files: './assets/magnemite/scene.gltf',
+            files: './assets/old_chest/scene.gltf',
             location: {
                 lat: 52.415450,
                 lng: -4.065079,
@@ -23,7 +23,7 @@ function staticLoadPlaces() {
         },
         {
             name: 'Arts Centre Plaza',
-            files: './assets/magnemite/scene.gltf',
+            files: './assets/azeria/scene.gltf',
             location: {
                 lat: 52.415666,
                 lng: -4.063480,
