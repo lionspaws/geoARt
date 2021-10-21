@@ -6,10 +6,27 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Magnemite',
+            name: 'PSB Fish Pond',
+            files: './assets/magnemite/scene.gltf',
             location: {
                 lat: 52.415741,
                 lng: -4.065626,
+            }
+        },
+        {
+            name: 'Wood nr Robotics Workshop',
+            files: './assets/magnemite/scene.gltf',
+            location: {
+                lat: 52.415450,
+                lng: -4.065079,
+            }
+        },
+        {
+            name: 'Arts Centre Plaza',
+            files: './assets/magnemite/scene.gltf',
+            location: {
+                lat: 52.415666,
+                lng: -4.063480,
             }
         },
     ];
@@ -21,10 +38,11 @@ function renderPlaces(places) {
     places.forEach((place) => {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
+        let files = place.files;
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-        model.setAttribute('gltf-model', './assets/magnemite/scene.gltf');
+        model.setAttribute('gltf-model', '${files}');
         model.setAttribute('rotation', '0 180 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.5 0.5 0.5');
