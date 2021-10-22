@@ -15,7 +15,7 @@ function staticLoadPlaces() {
             }
         },
         {
-            name: 'Wood nr Robotics Workshop',
+            name: 'Wood nr Workshop',
             files: './assets/old_chest/scene.gltf',
             scale: '0.5 0.5 0.5',
             location: {
@@ -26,6 +26,15 @@ function staticLoadPlaces() {
         {
             name: 'Arts Centre Plaza',
             files: './assets/azeria/scene.gltf',
+            scale: '1 1 1',
+            location: {
+                lat: 52.415666,
+                lng: -4.063480,
+            }
+        },
+        {
+            name: 'CS',
+            files: './assets/wood_chopping_trunk_base_log/scene.gltf',
             scale: '1 1 1',
             location: {
                 lat: 52.415666,
