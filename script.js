@@ -37,8 +37,8 @@ function staticLoadPlaces() {
             files: './assets/wood_chopping_trunk_base_log/scene.gltf',
             scale: '1 1 1',
             location: {
-                lat: 52.415666,
-                lng: -4.063480,
+                lat: 52.416592, 
+                lng: -4.066138,
             }
         },
     ];
