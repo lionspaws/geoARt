@@ -5,7 +5,7 @@ window.onload = () => {
 
 function staticLoadPlaces() {
     return [
-        {
+/*        {
             name: 'PSB Fish Pond',
             files: './assets/simple-spotted-jellyfish-baked-animation/Spotted-Jelly.gltf',
             scale: '0.3 0.3 0.3',
@@ -31,7 +31,7 @@ function staticLoadPlaces() {
                 lat: 52.415666,
                 lng: -4.063480,
             }
-        },
+        },*/
         {
             name: 'CS',
             files: './assets/wood_chopping_trunk_base_log/scene.gltf',
